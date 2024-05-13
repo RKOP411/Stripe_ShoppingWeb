@@ -1,0 +1,39 @@
+.hide {
+    display: none;
+}
+
+
+.cart-box {
+    position: absolute;
+    top: 6%;
+    left: 75%;
+    margin: 2vh;
+    float: left;
+    z-index: 1;
+
+}
+
+.whole-cart-window {
+    border: outset lightgray 1px;
+    border-radius: 5px;
+    position: fixed;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.Cart-Item-Count {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    bottom: 15px;
+    left: 20px;
+}
+
+.Cart-Item-Price {
+    padding-left: 40px;
+}
+

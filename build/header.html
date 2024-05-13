@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+<div><!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-lg">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/stripe_work/build/">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">More</a>
+                </li>
+            </ul>
+            <div style="position: relative;">
+                <div> <i class="fa fa-shopping-cart" style="height:3vh;width:3vh;font-size:33px;"></i></div>
+                <div class="Cart-Item-Count">0</div>
+            </div>
+
+    </nav>
+    <!-- Cart -->
+    <div class="cart-box hide">
+        <form method="post">
+            <div class="whole-cart-window">
+                <div class="row" style="width:350px;" id="Cart-Item">
+                    <!-- Cart-Item -->
+
+                </div>
+                <hr>
+                <div class="container-lg">
+                    <div>
+                        Total:
+                        <span style=" padding-left: 70%;" id="Cart-Item-Total">$0</span>
+                        <!-- <div class="col-md-4 offset-md-4">$0</div>-->
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="submit" class="btn btn-primary" name="CheckOut" id="CheckOut" value="Check Out" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Cart -->
+</div>
+
+</div><!-- nav -->
